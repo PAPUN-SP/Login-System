@@ -1,0 +1,10 @@
+services:
+  login-system:
+    build: .
+    ports:
+      - "8081:8081"
+    environment:
+      SERVER_PORT: 8081
+      APP_JWT_SECRET: ${APP_JWT_SECRET:?Set APP_JWT_SECRET in .env or your shell environment}
+    volumes:
+      - ./data:/app/data

@@ -1,0 +1,9 @@
+target/
+data/*.trace
+data/*.lock
+.git/
+.idea/
+.vscode/
+.env
+.env.prod
+.backup.env

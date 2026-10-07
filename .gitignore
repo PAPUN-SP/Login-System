@@ -1,0 +1,10 @@
+.env
+.env.prod
+.backup.env
+.vscode/
+data/
+backups/
+target/
+.env
+.env.prod
+.backup.env
